@@ -16,28 +16,37 @@ main{
     
 }
 .first-section{
-        height: 400px;
-        width: 280px;
-        background-color: rgb(49, 26, 217);
+        height: 350px;
+        width: 260px;
+        background-image: linear-gradient(180deg,  rgb(31, 31, 201), rgb(94, 22, 209));
         color: white;
         border-radius: 30px;
     
 }
-.second{
+/* .second{
     display: flex;
     justify-content: center;
     margin-top: 40px;
+} */
+.marks{
+    margin-top: 40px;
+    /* margin-left: 40px;
+    width: 34%;
+    height: 100px;
+    border-radius: 50px;
+    background-image: linear-gradient(180deg,  rgb(31, 31, 201), rgb(94, 22, 209)); */
 }
 .your{
     margin-top: 30px;
 }
 
 .great{
-    display: flex;
-  text-align: center;
+    margin: 40px 0 0 79px;
+    
 }
 .para{
-    margin-top: 30px;
+    margin-left: 27px;
+      font-size: 14px;
 }
 
 .heading{
@@ -45,23 +54,27 @@ main{
     justify-content: center;
 }
 .number{
-    width: 40%;
+    /* width: 40%;
     height: 90px;
-    border-radius: 40px;
-    font-size: 29px;
+    border-radius: 40px; */
+    margin-left: 100px;
+    font-weight: 900;
+    font-size: 40px;
+}
+.percentage{
+    color: #000;
+      margin-left: 50px;
 }
 .of{
-    margin-top: 22px;
+    margin-left: 120px;
     font-size: 12px;
 }
 .third{
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
+    margin: 20px 0 0 10px;
 }
 .second-section{
-    height: 400px;
-    width: 280px;
+    height: 350px;
+    width: 260px;
     background-color: white;
     border-radius: 30px;
 }
@@ -83,8 +96,8 @@ main{
     gap: 10px;
     border-radius: 10px;
     font-size: 14px;
-    padding: 9px;
-    width: 240px;
+    padding: 5px;
+    width: 220px;
 }
 .reaction{
     background-color: rgb(245, 231, 231);
@@ -103,13 +116,14 @@ main{
     color: rgb(31, 31, 201);
 }
 button{
-    background-color: rgb(94, 22, 209);
+    background-color: rgb(99, 17, 232);
     color: white;
-    width: 240px;
-    height: 37px;
+    width: 220px;
+    height: 39px;
     font-weight: bold;
     border-radius: 40px;
-    margin-left: 18px;
-    margin-top: 20px;
+    margin: 30px 0 0 18px;
 }
-
+.percentages{
+    font-weight: 700;
+}
